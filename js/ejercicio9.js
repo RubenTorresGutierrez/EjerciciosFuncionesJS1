@@ -9,3 +9,8 @@
 *   Ref JSDoc: https://jsdoc.app/
 */
 'use strict'
+
+let elevado = (numero => numero * numero * numero);
+let numero = parseInt(prompt('Ingrese un número:'));
+
+alert(`El número ${numero} elevado a la 3ª potencia da: ${elevado(numero)}`)

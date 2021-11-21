@@ -9,3 +9,16 @@
 *   Ref JSDoc: https://jsdoc.app/
 */
 'use strict'
+
+let menor = function (a, b, c){
+
+    if(a < b && a < c)
+        return a;
+    if(b < a && b < c)
+        return b;
+    if(c < a && c < b)
+        return c;
+
+}
+
+alert(`El menor es ${menor(1, 2, 3)}`);

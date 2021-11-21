@@ -9,3 +9,11 @@
 *   Ref JSDoc: https://jsdoc.app/
 */
 'use strict'
+
+let suma = (numeros => numeros.reduce((x, y) => x + y));
+let numeros = [];
+
+for(let i = 0; i < 5; i++)
+    numeros[i] = parseInt(prompt(`Introduce el número ${i+1}:`));
+
+alert(`La suma de todos los elementos es ${suma(numeros)}`);

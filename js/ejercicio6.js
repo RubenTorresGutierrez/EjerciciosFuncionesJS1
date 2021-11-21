@@ -9,3 +9,7 @@
 *   Ref JSDoc: https://jsdoc.app/
 */
 'use strict'
+
+let promedio = ((a, b, c) => (a + b + c) / 3);
+
+alert(`El promedio es: ${promedio(1, 2, 3)}`);

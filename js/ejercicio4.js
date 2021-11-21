@@ -9,3 +9,8 @@
 *   Ref JSDoc: https://jsdoc.app/
 */
 'use strict'
+
+let perimetro = (l => l + l + l + l);
+let lado = 9;
+
+alert(`El perímetro de un cuadrado con lado ${lado} es: ${perimetro(lado)}`);

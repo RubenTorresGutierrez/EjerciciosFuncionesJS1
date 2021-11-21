@@ -9,3 +9,7 @@
 *   Ref JSDoc: https://jsdoc.app/
 */
 'use strict'
+
+let enteros = ((a, b, c) => alert(`Los números son: ${a}, ${b}, ${c}`));
+
+enteros(1, 2, 3); 

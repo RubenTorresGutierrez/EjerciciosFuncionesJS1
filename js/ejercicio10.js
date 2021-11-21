@@ -9,3 +9,8 @@
 *   Ref JSDoc: https://jsdoc.app/
 */
 'use strict'
+
+let raiz = (numero => Math.sqrt(numero));
+let numero = parseInt(prompt('Introduce un número:'));
+
+alert(`La raíz cuadrada de ${numero} es: ${raiz(numero)}`);

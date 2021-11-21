@@ -9,3 +9,8 @@
 *   Ref JSDoc: https://jsdoc.app/
 */
 'use strict'
+
+let cantidad = (numero => numero.length);
+let numero = 123456;
+
+alert(`La cantidad de dígitos del número ${numero} es: ${cantidad(numero.toString())}`);
